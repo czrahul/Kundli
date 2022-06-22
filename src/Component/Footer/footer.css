@@ -1,0 +1,106 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    /* text-align: justify; */
+    color: white;
+    padding: 100px;
+    padding-bottom: 20px;
+    padding-top: 40px
+}
+
+.footer .header {
+    border-bottom: 1px solid rgb(172, 172, 172);
+}
+.footer .header p {
+    font-size: 14px;
+    text-align: justify;
+}
+.footer .header h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer .header hr {
+    width: 7%;
+    border: 1px solid yellow;
+    margin-bottom: 10px;
+
+}
+
+.footer .sitemap {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    gap: 3%;
+}
+
+.footer .sitemap div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 30%
+}
+
+.footer .sitemap div h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer .sitemap div hr {
+    width: 30%;
+    border: 1px solid yellow;
+    margin-bottom: 10px;
+}
+
+.footer .sitemap div p {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+.footer .sitemap div p:hover {
+    cursor: pointer;
+    color: gainsboro;
+}
+
+.footer .sitemap div i {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 10%;
+
+}
+.footer .sitemap div i j{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer .sitemap div i img{ 
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer .sitemap div i img, j:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.footer .sitemap div p #logo_image {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: gainsboro;
+}
+
+.copyright {
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    /* margin-top: 20px; */
+}

@@ -1,0 +1,101 @@
+.element5 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.element5 .allReviews {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 80%;
+    /* height: 100px; */
+    color: gray;
+    /* margin: 30px; */
+}
+
+.element5 .review {
+    
+    height: 415px;
+    width: 312px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.element5 .review img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-radius: 100%;
+}
+
+.element5 .online img:hover {
+    border: 10px solid white;
+    box-shadow: 0px 0px 28px -8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 28px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 28px -8px rgba(0,0,0,0.75);
+}
+
+.element5 .review #name {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+.element5 .review #place {
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+    font-weight: 500;
+}
+.element5 .review #content {
+    font-size: 13px;
+    text-align: justify;
+
+}
+/* .element5 .online p {
+    position:absolute;
+    margin-top: 220px;
+    margin-left: 0.9%;
+} */
+
+  .slick-prev:before {
+    color: gray;
+    font-size: 30px;
+  }
+  
+  .slick-next:before {
+    color: gray;
+    font-size: 30px;
+  }
+  .slick-initialized .slick-slide {
+    display: block;
+}
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    /* display: none; */
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins,sans-serif;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+.slick-slider {
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+  
+  

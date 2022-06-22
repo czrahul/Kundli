@@ -1,0 +1,78 @@
+.widget {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    /* gap: 10px; */
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+    height: 280px;
+    width: 250px;
+    background: linear-gradient(to bottom, white 98%, yellow 2%);
+    border-radius: 10px;
+    /* padding: 2%; */
+}
+
+.widget .down {
+    display: flex;
+    flex-direction: column;
+}
+
+.up, .down {
+    color: #757575;
+}
+
+.title {
+    
+    font-weight: 500;
+    font-size: 16px;
+    color: #757575;
+}
+.desc {
+    /* font-weight: 500; */
+    padding-top: 5px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.widget .up {
+    border-radius: 100%;
+}
+/* .scard {
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0%;
+    margin: 0%;
+}
+.scard #elem2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+} */
+
+/* .scard span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.scard #action-btn {
+    float: right;
+    margin-top: -20%;
+    margin-right: 2%;
+    height: 35px;
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(38, 175, 209);
+    cursor: pointer;
+}
+
+.scard img {
+    border-radius: 100%;
+    margin-right: 5%;
+} */

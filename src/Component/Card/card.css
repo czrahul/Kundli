@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1400px) and (min-width: 427px){
+    .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    margin-left: 10%;
+    flex-wrap: wrap;
+}}
+
+@media (max-width: 427px) {
+    .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    margin-left: 10%;
+    }
+    .cards div {
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-top: -8%;
+        height: 150px;
+        width: 265px;
+    }
+}
+
+.cards div {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: -8%;
+    height: 120px;
+    width: 225px;
+}
+
+.cards div:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 12px 0px rgba(230, 228, 228, 0.75);
+    -webkit-box-shadow: 0px 5px 12px 0px rgba(231, 231, 231, 0.75);
+    -moz-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.75);
+}
+
+
+.cards #span1 {
+    border-radius: 100%;
+    padding-top: 5%;
+}
+.cards #span1 img{
+    
+}
+
+.cards #span2 {
+    border-radius: 100%;
+    padding-top: 5%;
+}
+
+.cards #span3 {
+    border-radius: 100%;
+    padding-top: 5%;
+}
+
+.cards #span4 {
+    border-radius: 100%;
+    padding-top: 5%;
+}

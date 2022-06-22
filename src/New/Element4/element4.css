@@ -1,0 +1,73 @@
+.element4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.element4 .elem1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    row-gap: 20px;
+}
+
+.element4 .scroll_online {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 80%;
+    /* height: 100px; */
+    color: gray;
+    /* margin: 30px; */
+}
+
+.element4 .online {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 300px;
+    width: 200px;
+    border: 5px solid gainsboro;
+    border-radius: 10px;
+}
+
+.element4 .online img {
+    position: fixed;
+    margin-left: 0.7%;
+    margin-top: 20px;
+    border-radius: 100%;
+}
+
+.element4 .online img:hover {
+    border: 10px solid white;
+    box-shadow: 0px 0px 28px -8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 28px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 28px -8px rgba(0,0,0,0.75);
+}
+
+
+.element4 .online h3 {
+    position:absolute;
+    margin-top: 180px;
+    margin-left: 1.3%;
+    text-align: center;
+}
+.element4 .online p {
+    position:absolute;
+    margin-top: 220px;
+    margin-left: 0.9%;
+}
+
+  .slick-prev:before {
+    color: gray;
+    font-size: 30px;
+  }
+  
+  .slick-next:before {
+    color: gray;
+    font-size: 30px;
+  }
+  
+  

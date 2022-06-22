@@ -1,0 +1,92 @@
+.banner {
+    height: 75%;
+    width: 80%;
+    margin-top: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background: linear-gradient(90deg,#f0df20,#f9f8e3 30%);
+    border-radius: 20px;
+    padding: 20px 50px 0 60px;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;    
+  }
+
+  .left {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .left span {
+    content: "Shweta Tiwari";
+    color: #000;
+    /* position: absolute; */
+    white-space: nowrap;
+    bottom: 10px;
+    font-weight: 600;
+    font-style: italic;
+    right: -130px;
+    font-size: 18px;
+    margin-top: 55%;
+    color: #000;
+    margin-left: 10%;
+    width: 200px;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right #span1 {
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    display: block;
+    color: #313131;
+    margin-left: 25%;
+  }
+
+  .right #span2 {
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    color: #313131;
+    margin-left: -1%;
+  }
+
+  .right #span3 {
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    display: block;
+    color: #313131;
+    margin-left: 65%;
+}
+
+  .right button {
+    background-color: #f0df20;
+    border: 1px solid #000;
+    font-size: 24px;
+    color: #000;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+    margin-left: 65%;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+.right button:hover {
+    box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.75);
+cursor: pointer;
+}
+  

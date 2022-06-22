@@ -1,0 +1,41 @@
+.bottom .elem1, .elem2 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.bottom .elem1 {
+    background-color: rgb(241, 241, 241);
+}
+
+.bottom .elem2 {
+    background-color: white;
+}
+.bottom .header h2 {
+    text-align: center;
+    padding: 20px;
+}
+.bottom .header h3 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 22px;
+    color: rgb(58, 58, 58);
+}
+
+.bottom  p {
+    text-align: justify;
+    margin-bottom: 15px
+}
+
+.bottom .elem2 .header h3 i {
+    width: 20px;
+}
+
+.bottom  h4 {
+    text-align: justify;
+    margin-bottom: 15px
+}
